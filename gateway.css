@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-image: url(images/FotoJet.jpg);
+    background-size: cover;
+  }
+  
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #fa993f;
+    color: white;
+  }
+  
+  #main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin-top: 150px;
+  }
+  
+  button {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(245, 208, 208);
+    font-family: cursive;
+    font-style: bold;
+    font-weight: 900;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  .topnav .foundation {
+    font-size: large;
+    font-weight: 900;
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(255, 61, 61);
+  }

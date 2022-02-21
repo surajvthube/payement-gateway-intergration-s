@@ -1,0 +1,38 @@
+.topnav {
+    background-color: rgb(80, 79, 79);
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #f58821;
+    color: white;
+  }
+  
+  .topnav .foundation {
+    font-size: large;
+    font-weight: 900;
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(52, 39, 226);
+  }
